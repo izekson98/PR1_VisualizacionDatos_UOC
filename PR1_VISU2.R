@@ -7,7 +7,8 @@ library(dplyr)
 library(ggplot2)
 
 # Leer Excel: 
-df <- read_excel("C:/Users/iizas/OneDrive/Escritorio/Master Ciencia de datos/Visualizacion de datos/PR1/PR1_dataset.xlsx")
+# df <- read_excel("C:/Users/iizas/OneDrive/Escritorio/Master Ciencia de datos/Visualizacion de datos/PR1/PR1_dataset.xlsx")
+df <- read_excel("PR1_dataset.xlsx")
 
 # Convertir position_g_start a numérico
 df$position_g_start <- as.numeric(gsub("[, ]","", df$position_g_start))
@@ -32,3 +33,4 @@ ggplot(df_plot, aes(x = `VariantOnGenome/ClinicalClassification`, y = pos_rel, f
   ) +
   theme_minimal() +
   theme(legend.position = "none")  # Eliminamos la leyenda, se sobre entiende
+
