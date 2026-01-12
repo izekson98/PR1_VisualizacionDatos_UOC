@@ -4,6 +4,8 @@ Repositorio del código para realizar los gráficos utilizados en la PR1 de la a
 ## PR1: Visualización de Datos - Análisis del Gen COL1A2
 Este repositorio contiene **el código en R** utilizado para la generación de los 4 gráficos de la Práctica 1 (PR1) de la asignatura Visualización de Datos. El objetivo del proyecto es analizar y visualizar **variantes genéticas del gen COL1A2** para extraer información relevante sobre su impacto clínico y distribución genómica.
 
+Se puede ver la historia completa de la práctica en formato storytelling en el siguiente enlace: [https://preview.shorthand.com/ltcdGK8LC87wMD4M]
+
 ## Descripción del Proyecto
 El análisis se centra en el estudio de variantes genéticas que afectan al tejido conectivo. Los gráficos desarrollados buscan responder a preguntas críticas para la investigación clínica de enfermedades raras como la Osteogénesis Imperfecta o el síndrome de Ehlers-Danlos.
 
