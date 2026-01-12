@@ -32,14 +32,17 @@ Posteriormente se han eliminado los caracteres especiales de los nombres de las 
 ## Contenido del Repositorio
 El repositorio incluye 4 scripts independientes en R, cada uno dedicado a una visualización específica:
 
-- Script 1: 
+Nota tecnica: Para asegurar que los scripts funcionen correctamente sin necesidad de modificar el código, primero hay que descargar el Excel PR1_dataset.xlxs que hay en el repositorio y a continuacion descargar los scripts en la misma carpeta donde se encuentre el excel. Si hay algun error del estilo "path not found" es recomendable configurar el directorio de R de la siguiente manera ==> Ir al menú superior: Session > Set Working Directory > To Source File Location
 
-- Script 2: 
-
-- Script 3:
-
-- Script 4:
-
+- [Script 1:](PR1_VISU1.R) Muestra la distribución de las variantes a lo largo del gen e identifica los "hotspots" o puntos de mayor acumulación.
+    - Tipo de visualizacion: Rug plot y densidad
+- [Script 2:](PR1_VISU2.R) Compara la dispersión de las variantes en la secuencia genética según su clasificación clínica.
+    - Tipo de visualización: Violin plot
+- [Script 3:](PR1_VISU3.R) Analiza la relación entre el tipo de variante (sustitución, deleción, etc.) y su impacto clínico global
+    - Tipo de visualización: Heatmap de proporciones
+- [Script 4:](PR1_VISU4.R) Evalúa si el origen de la variante (germinal vs. de novo) influye en su patogenicidad mediante visualización y un test Chi-cuadrado.
+    - Tipo de visualización: Bar plot comparativo
+      
 ## Requisitos e Instalación
 Para replicar estos gráficos, asegúrate de tener instalado R y disponer de las siguientes librerías:
 - library(readxl)
