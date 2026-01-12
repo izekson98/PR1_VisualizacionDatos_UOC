@@ -7,7 +7,8 @@ library(dplyr)
 library(ggplot2)
 
 # Leer Excel: 
-df <- read_excel("C:/Users/iizas/OneDrive/Escritorio/Master Ciencia de datos/Visualizacion de datos/PR1/PR1_dataset.xlsx")
+# df <- read_excel("C:/Users/iizas/OneDrive/Escritorio/Master Ciencia de datos/Visualizacion de datos/PR1/PR1_dataset.xlsx")
+df <- read_excel("PR1_dataset.xlsx") #path relativo
 
 # Leer columnas relevantes
 df$type <- as.factor(df$type)
@@ -39,4 +40,5 @@ ggplot(count_df, aes(x = type, y = Clinical, fill = prop_global)) +
     title = "Proporción global de impacto clínico según tipo de variante en COL1A2"
   ) +
   theme_minimal()
+
 
