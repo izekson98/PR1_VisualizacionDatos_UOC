@@ -24,7 +24,7 @@ El dataset original proviene de la **base de datos LOVD (Leiden Open Variation D
 
 Estado de los datos: Creado en 2008 y actualizado en 2025 (Vigente).
 
-Acceso al Dataset: [Excel adjuntado en el repositorio](PR1_dataset.xlxs)
+Acceso al Dataset: [Excel adjuntado en el repositorio](PR1_dataset.xlsx)
 
 _**Nota técnica:**_ Aunque no se ha enriquecido el dataset con información externa, sí se ha realizado una transformación del formato original: el dataset se descarga en formato TXT desde la web https://databases.lovd.nl/shared/genes/COL1A2 y se ha convertido a CSV para su análisis. Además, se ha seleccionado una parte específica de la base de datos, relevante para el estudio posterior. Esta información se ha podido identificar mediante los símbolos ## y la descripción asociada en el archivo original.
 Posteriormente se han eliminado los caracteres especiales de los nombres de las columnas en el Excel para garantizar una correcta lectura y procesamiento en el entorno R. 
