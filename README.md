@@ -42,7 +42,9 @@ El repositorio incluye 4 scripts independientes en R, cada uno dedicado a una vi
 
 ## Requisitos e Instalación
 Para replicar estos gráficos, asegúrate de tener instalado R y disponer de las siguientes librerías:
-- install.packages("ggplot2")
-- install.packages("readxl")
-- install.packages("dplyr")
+- library(readxl)
+- library(dplyr)
+- library(ggplot2)
+- library(scales)
+
 
