@@ -8,7 +8,8 @@ library(ggplot2)
 library(scales)
 
 # Leer Excel: 
-df <- read_excel("C:/Users/iizas/OneDrive/Escritorio/Master Ciencia de datos/Visualizacion de datos/PR1/PR1_dataset.xlsx")
+# df <- read_excel("C:/Users/iizas/OneDrive/Escritorio/Master Ciencia de datos/Visualizacion de datos/PR1/PR1_dataset.xlsx")
+df <- read_excel("PR1_dataset.xlsx") # path relativo al excel
 
 # Variables relevantes
 df$Origin <- df$`VariantOnGenome/Genetic_origin`
@@ -70,4 +71,5 @@ table_test
 
 # Test chi-cuadrado
 chisq.test(table_test)
+
 
