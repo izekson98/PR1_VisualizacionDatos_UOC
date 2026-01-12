@@ -6,7 +6,8 @@ library(dplyr)
 library(ggplot2)
 
 # Leer Excel: 
-df <- read_excel("C:/Users/iizas/OneDrive/Escritorio/Master Ciencia de datos/Visualizacion de datos/PR1/PR1_dataset.xlsx")
+# df <- read_excel("C:/Users/iizas/OneDrive/Escritorio/Master Ciencia de datos/Visualizacion de datos/PR1/PR1_dataset.xlsx")
+df <- read_excel("PR1_dataset.xlsx") # path relativo
 df$position_g_start <- as.numeric(gsub("[, ]","", df$position_g_start))
 
 # Calculamos la posición relativa al inicio del gen
@@ -38,4 +39,5 @@ ggplot() +
     title = "Distribución de variantes asociadas a Ehlers-Danlos en COL1A2\nHotspots en rojo"
   ) +
   theme_minimal()
+
 
